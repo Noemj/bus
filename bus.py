@@ -26,4 +26,4 @@ for route in routes:
                 print 'Next 506 leaving from Kumpula at: ' + str(time).split('\'')[1]
                 sys.exit(0)
 
-print 'Vika meni jo.. '
+print 'Last bus left already.. '

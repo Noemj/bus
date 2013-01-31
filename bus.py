@@ -16,7 +16,6 @@ for route in routes:
     lines = route.getElementsByTagName('LINE')
     for line in lines:   
         stops = line.getElementsByTagName('STOP')
-
         for stop in stops:
             name = stop.getElementsByTagName('NAME')
             val = map(lambda p: p.getAttribute('val'),name)
